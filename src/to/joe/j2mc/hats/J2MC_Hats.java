@@ -38,7 +38,7 @@ public class J2MC_Hats extends JavaPlugin implements Listener {
             } else {
                 p.sendMessage(ChatColor.RED + "You have not voted in the past 24 hours.");
                 ItemStack headgear = p.getInventory().getHelmet();
-                if (headgear == null || headgear.getType().equals(Material.GOLD_HELMET) || headgear.getType().equals(Material.IRON_HELMET) || headgear.getType().equals(Material.DIAMOND_HELMET) || headgear.getType().equals(Material.LEATHER_HELMET) || headgear.getType().equals(Material.CHAINMAIL_HELMET)) {
+                if (headgear == null || headgear.getType().equals(Material.GOLD_HELMET) || headgear.getType().equals(Material.IRON_HELMET) || headgear.getType().equals(Material.DIAMOND_HELMET) || headgear.getType().equals(Material.LEATHER_HELMET) || headgear.getType().equals(Material.CHAINMAIL_HELMET) || headgear.getType().equals(Material.PUMPKIN) || headgear.getType().equals(Material.SKULL)) {
                     p.sendMessage(ChatColor.RED + "Visit http://joe.to/vote for details on voting");
                 } else {
                     p.sendMessage(ChatColor.RED + "Your hat has been removed");
